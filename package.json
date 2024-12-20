@@ -12,7 +12,7 @@
     "postversion": "git push --tags && npm publish . && git push && echo \"Successfully released version $npm_package_version!\""
   },
   "keywords": [
-    "plop"
+    "plop", "prompt", "custom"
   ],
   "homepage": "https://github.com/psalaets/plop-prompts-with-custom",
   "license": "MIT",
