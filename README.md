@@ -4,7 +4,7 @@ Mix custom prompt functions with prompt objects.
 
 ## What is this?
 
-When defining a plop generator, the `prompts` property can be
+When defining a [plop](https://plopjs.com/) generator, the `prompts` property can be
 
 - `Array<PromptQuestion>` - Array of prompt config objects, or
 - `DynamicPromptsFunction` - Function that returns a Promise of prompt answers.
