@@ -1,7 +1,7 @@
 {
   "name": "plop-prompts-with-custom",
   "description": "Mix custom prompt functions with prompt objects",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "main": "index.js",
   "sideEffects": false,
   "type": "module",
@@ -10,7 +10,9 @@
     "preversion": "npm run test",
     "postversion": "git push --tags && npm publish . && git push && echo \"Successfully released version $npm_package_version!\""
   },
-  "keywords": ["plop"],
+  "keywords": [
+    "plop"
+  ],
   "homepage": "https://github.com/psalaets/plop-prompts-with-custom",
   "license": "MIT",
   "peerDependencies": {
